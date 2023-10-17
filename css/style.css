@@ -1,0 +1,146 @@
+.nav-top {
+    background-color: rgb(10, 86, 156) !important;
+}
+
+.nav-menu {
+    color: white !important;
+}
+
+.carousel-inner img {
+    max-width: 100% !important; /* Define uma largura máxima para a imagem */
+    height: auto !important; /* Mantém a proporção da imagem */
+    
+}
+.carousel-caption{
+    background-color: rgba(10, 85, 156, 0.356) !important;
+}
+.btn{
+    text-align: center;
+}
+
+.divisao {
+    background-color: rgb(10, 86, 156) !important;
+}
+
+.sec-pacotes {
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+    justify-content: center !important;
+
+}
+
+.btn-primary{
+    background-color: rgb(10, 85, 156) !important;
+    border: 0;
+}
+.img-car{
+    max-height: 800px !important;
+}
+.sec-pacotes p {
+    text-align: justify !important;
+}
+
+.card {
+    margin-left: 1% !important;
+    margin-top: 1% !important;
+    margin-bottom: 1% !important;
+    padding: 1% !important;
+
+}
+
+footer {
+    text-align: center !important;
+    background-color: rgb(10, 86, 156) !important;
+    color: white !important;
+    
+}
+
+#contato {
+    background-color: rgb(80, 147, 209) !important;
+    padding: 0 !important;
+     margin: 0 !important;
+}
+
+.conteudo-sociais {
+    display: flex !important;
+    justify-content: space-around !important;
+    margin: 20px 0 !important;
+    flex: 1 !important;
+    text-align: center !important;
+}
+.redes h3{
+    color: white;
+    font-size: 20px;
+}
+.conteudo-sociais  h3 {
+    text-align: center !important;
+    font-size: 20px !important;
+    color: white !important;
+    padding: 1em !important;
+
+}
+
+#carousel-item h3{
+    color: rgb(10, 85, 156) !important;
+}
+.card-title{
+    color: rgb(10, 85, 156) !important;
+}
+.contato-form {
+    height: auto !important;
+    margin: 2% 0 1% !important;
+    padding: 4% 0 0 5% !important;
+    color: white !important;
+       
+}
+
+.form-control {
+    width: 90% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    
+
+}
+
+.redes img {
+    width: 60px !important;
+    margin: 1% !important;
+
+}
+
+.form-label{
+    height: auto !important;
+}
+
+/*
+.contato {
+
+    padding: 0;
+    margin: 0;
+    background-color: rgb(10, 86, 156) !important;
+    justify-content: center !important;
+    margin-bottom: auto;
+    
+
+}
+
+
+.redes {
+    padding: 0 !important;
+    margin: 2% 0.1% !important;
+    flex: 1 !important;
+    text-align: center !important;
+
+
+}
+
+.
+
+.redes h3 {
+    color: rgb(15, 15, 15) !important;
+
+    text-align: center;
+    justify-content: center !important;
+
+}
+*/

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tocantins</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/640px-Flag_map_of_Tocantins.png" type="image/x-icon">
+    <script src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API&callback=inicializarMapa" async
+        defer></script>
+
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <nav class="navbar navbar-expand-sm nav-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/640px-Flag_map_of_Tocantins.png" width="30" height="30" alt="">
+                  </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link nav-menu" href="#demo">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-menu" href="#pacotes">Pacotes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-menu" href="#contato">Contatos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Pesquisar">
+                        <button class="btn btn-primary" type="button">Buscar</button>
+                    </form>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+    <main>
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Dunas Jalapão.jpg" alt="Jalapão" class="d-block w-100 img-car">
+                    <div class="carousel-caption">
+                        <h3>Dunas do Jalapão</h3>
+                        <p>Também são conhecidas como Deserto do Jalapão!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Serras Gerais.jpg" alt="Serras Gerais" class="d-block w-100 img-car">
+                    <div class="carousel-caption">
+                        <h3>Serras Gerais</h3>
+                        <p>Ainda pouco exploradas, são a maior cadeia de serras do Brasil!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/ft-3-igreja-de-natividade-foto-antonio-goncalves.jpg" alt="Natividade"
+                        class="d-block w-100 img-car">
+                    <div class="carousel-caption">
+                        <h3>Natividade</h3>
+                        <p>Berço histórico do estado do Tocantins!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/taq.jpg" alt="Natividade" class="d-block w-100 img-car">
+                    <div class="carousel-caption">
+                        <h3>Taquaruçu</h3>
+                        <p>Um destino de ecoturismo repleto de belas cachoeiras!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <!-- Left and right controls/icons -->
+
+
+        <!--Divisão-->
+        <div class="container-fluid p-5 text-center text-white divisao">
+            <h2>Conheça o Tocantins</h2>
+        </div>
+
+        <!--Pacotes-->
+        <section class="row sec-pacotes" id="pacotes">
+            <div class="card col-sm-3" style="width:300px">
+                <img class="card-img-top" src="img/jalapao-o-que-e.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Jalapão</h4>
+                    <p class="card-text ">Entre dunas douradas, paisagens grandiosas, fervedouros e cachoeiras o Jalapão
+                        cada dia mais conquista os viajantes amantes do ecoturismo. Em meio ao cerrado do Tocantins, o
+                        Jalapão está sendo descoberto pelos turistas que buscam alguns dias de descanso longe dos
+                        grandes centros urbanos.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card col-sm-3" style="width:300px">
+                <img class="card-img-top" src="img/Serras Gerais.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Serras Gerais</h4>
+                    <p class="card-text ">As Serras Gerais, situadas no sudeste tocantinense, fazem parte da maior
+                        cadeia de serras do Brasil e seus atrativos estão espalhados por vários municípios, tais como
+                        Natividade, Almas, Dianópolis, Rio da Conceição e Aurora do Tocantins.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card col-sm-3" style="width:300px">
+                <img class="card-img-top" src="img/fazer-natividade-suca.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Natividade</h4>
+                    <p class="card-text ">Natividade é o berço histórico do estado do Tocantins, lugar onde as raízes do
+                        novo estado brasileiro foram fixadas. A pitoresca cidade reserva ótimos atrativos naturais,
+                        históricos e culturais para surpreender todo tipo de viajante e é uma ótima porta de entrada
+                        para conhecer as Serras Gerais do Tocantins. </p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card col-sm-3" style="width:300px">
+                <img class="card-img-top" src="img/Portal.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Taquaruçu</h4>
+                    <p class="card-text ">Taquaruçu é um distrito de Palmas, situada a 30 km do centro da capital do
+                        Tocantins, um destino de ecoturismo repleto de belas cachoeiras em uma região serrana do estado. Para
+                        muitos moradores de Palmas, Taquaruçu é um refúgio serrano, local ideal para espantar o calor nas águas
+                        friasde suas inúmeras cachoeiras, praticar atividades como rapel, tirolesa e trilhas, ou simplesmente
+                        descansar em uma de suas pousadas. </p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Divisão-->
+        <div class="container-fluid p-5 text-center text-white divisao">
+            <h2>Fale Conosco</h2>
+        </div>
+
+        <!--Formulário de contato-->
+
+        <section class="row" id="contato">
+            <!-- Coluna para o formulário de contato -->
+            <div class="col-sm-6 contato-form">
+                <form action="">
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            <!-- Coluna para as redes sociais -->
+            <div class="col-sm-6 redes">
+                <div class="conteudo-sociais">
+                    <div>
+                        <h3>Instagram</h3>
+                        <a href="https://www.instagram.com/raylsonf/"><img src="img/instagram.png" alt=""></a>
+                    </div>
+                    <div>
+                        <h3>WhatsApp</h3>
+                        <a href="https://wa.me/5563984032144" target="_blank" rel="noopener noreferrer">
+                            <img src="img/whatsapp.png" alt="WhatsApp">
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- Seção separada para o mapa -->
+                <div class="mapa">
+                    <h3>Localização:</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1962.531911373669!2d-48.29889626767822!3d-10.336777683171489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x933b3179fc2fa813%3A0x9057cf5146f05ace!2sSenac%20Taquaralto!5e0!3m2!1spt-BR!2sbr!4v1697046645699!5m2!1spt-BR!2sbr"
+                        width="100%" height="300" wiallowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <!--Divisão-->
+        <div class="container-fluid p-5 text-center text-white divisao">
+
+
+    </main>
+    <footer class="fixed-bottom">
+        <h5>&copy; 2023 TocantinsTour. Todos os direitos reservados a RFerreira</h5>
+
+    </footer>
+</body>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API&callback=inicializarMapa" async defer></script>
+
+</html>
